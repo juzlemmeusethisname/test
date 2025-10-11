@@ -1,60 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Global Book Ratings Dashboard</title>
-
-  <!-- Vega Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-  <!-- Page Style -->
+  <title>Publisher Ratings Analysis</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.6.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #f9f9f9;
-    }
-
-    h1 {
-      margin-top: 20px;
-      text-align: center;
-      color: #2c3e50;
-    }
-
-    .chart-container {
-      display: flex;
-      flex-direction: column;  /* vertical stack */
-      align-items: center;
-      gap: 40px;
-      width: 90%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       max-width: 1200px;
-      margin-bottom: 60px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
     }
-
-    .chart {
-      width: 100%;
-      background: white;
-      padding: 10px;
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #7f8c8d;
+      margin-bottom: 40px;
+      font-size: 16px;
+    }
+    .vis-container {
+      background-color: white;
+      padding: 30px;
+      margin-bottom: 30px;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .vis-title {
+      color: #34495e;
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    #map_chart, #publisher_chart {
+      display: flex;
+      justify-content: center;
     }
   </style>
 </head>
-
 <body>
-  <h1>Global Book Ratings Dashboard</h1>
-
-  <div class="chart-container">
-    <div id="map_chart" class="chart"></div>
-    <div id="publisher_chart" class="chart"></div>
+  <h1>Data Visualization Analysis</h1>
+  <p class="subtitle">Week 9 & Week 10 Homework</p>
+  
+  <div class="vis-container">
+    <div class="vis-title">Visualization 1: Geographic Map</div>
+    <div id="map_chart"></div>
+  </div>
+  
+  <div class="vis-container">
+    <div class="vis-title">Visualization 2: Publisher Ratings Over Time</div>
+    <div id="publisher_chart"></div>
   </div>
 
-  <!-- Single JS file to render both charts in order -->
-  <script src="dashboard.js"></script>
+  <!-- Load your combined JS file -->
+  <script src="homework_week_10.js"></script>
 </body>
 </html>
