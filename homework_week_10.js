@@ -1,17 +1,17 @@
-// Load map first
-var vg_spec_map = "homework_week_9.vg.json";  // Map JSON
+// visualizations.js
 
-vegaEmbed("#map_chart", vg_spec_map)
+// Load Week 9 Map visualization
+var vg_spec = "homework_week_9.vg.json";
+vegaEmbed("#map_chart", vg_spec)
   .then(function(result) {
-    console.log("Map rendered successfully");
+    // Map loaded successfully
+  })
+  .catch(console.error);
 
-    // After map is done, render publisher chart
-    var vg_spec_publisher = "homework_week_10.vg.json";
-    return vegaEmbed("#publisher_chart", vg_spec_publisher);
-  })
+// Load Week 10 Publisher visualization
+var vg_spec_publisher = "homework_week_10.vg.json";
+vegaEmbed("#publisher_chart", vg_spec_publisher)
   .then(function(result) {
-    console.log("Publisher chart rendered successfully");
+    // Publisher chart loaded successfully
   })
-  .catch(function(err) {
-    console.error("Error rendering charts:", err);
-  });
+  .catch(console.error);
