@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Book Ratings Dashboard</title>
+
+  <!-- Vega libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <!-- Your JS files -->
+  <script src="homework_week_9.js"></script> <!-- Map -->
+  <script src="homework_week_10.js"></script> <!-- Publisher Ratings -->
+
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    .chart-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin: 30px;
+    }
+    .chart {
+      width: 45%;
+      min-width: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>📚 Global Book Ratings Dashboard</h1>
+  <div class="chart-container">
+    <div id="map_chart" class="chart"></div>
+    <div id="publisher_chart" class="chart"></div>
+  </div>
+</body>
+</html>

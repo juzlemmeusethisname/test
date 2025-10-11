@@ -1,0 +1,151 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": {
+    "text": "Publisher Average Ratings Over Time (1950-2010)",
+    "fontSize": 16
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/juzlemmeusethisname/FIT3179-Homework-Week-10/refs/heads/main/book_summary.csv"
+  },
+  "params": [
+    {
+      "name": "publisherFilter",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Ballantine Books",
+          "Bantam",
+          "Berkley Publishing Group",
+          "Pocket",
+          "Warner Books"
+        ],
+        "labels": [
+          "All Publishers",
+          "Ballantine Books",
+          "Bantam",
+          "Berkley Publishing Group",
+          "Pocket",
+          "Warner Books"
+        ],
+        "name": "Select Publisher: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "publisherFilter == 'All' || datum.Publisher == publisherFilter"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "title": "Publication Year",
+      "axis": {"format": "d"}
+    },
+    "y": {
+      "field": "AvgRating",
+      "type": "quantitative",
+      "title": "Average Rating",
+      "scale": {"domain": [5, 10.5]}
+    },
+    "color": {
+      "field": "Publisher",
+      "type": "nominal",
+      "title": "Publisher",
+      "scale": {"scheme": "category10"},
+      "legend": {"orient": "bottom"}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "line"},
+      "encoding": {
+        "tooltip": [
+          {"field": "Publisher", "type": "nominal", "title": "Publisher"},
+          {"field": "Year", "type": "quantitative", "title": "Year"},
+          {
+            "field": "AvgRating",
+            "type": "quantitative",
+            "title": "Avg Rating",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 150,
+        "color": "gold",
+        "stroke": "orange",
+        "strokeWidth": 2
+      },
+      "transform": [{"filter": "datum.AvgRating == 10"}],
+      "encoding": {
+        "tooltip": [
+          {"field": "Publisher", "type": "nominal", "title": "Publisher"},
+          {"field": "Year", "type": "quantitative", "title": "Year"},
+          {"field": "AvgRating", "type": "quantitative", "title": "Perfect Rating"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": -8,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "orange"
+      },
+      "transform": [{"filter": "datum.AvgRating == 10"}],
+      "encoding": {"text": {"datum": "Perfect 10"}}
+    },
+    {
+        "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": 10,
+            "dy": -5,
+            "fontSize": 11,
+            "fontWeight": "normal",
+            "color": "#2c3e50"
+        },
+        "encoding": {
+            "text": {
+            "datum": "Bantam and Pocket achieved perfect 10.0 ratings in the early period (1950, 1971, 1976), while ratings gradually stabilized between 7–8 from the 1980s onwards,"
+            },
+            "x": {"value": 0},
+            "y": {"value": 0}
+        }
+    },
+    {
+        "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": 10,
+            "dy": 7,
+            "fontSize": 11,
+            "fontWeight": "normal",
+            "color": "#2c3e50"
+        },
+        "encoding": {
+            "text": {
+            "datum": "reflecting a shift toward more consistent quality standards in publishing."
+            },
+            "x": {"value": 0},
+            "y": {"value": 0}
+        }
+        }
+
+  ]
+}
