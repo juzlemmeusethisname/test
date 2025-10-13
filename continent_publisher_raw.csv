@@ -1,0 +1,61 @@
+Continent,Publisher_Clean,Count
+Africa,Ballantine Books,4
+Africa,Bantam Books,2
+Africa,Berkley Publishing Group,1
+Africa,Harlequin,26
+Africa,Harpercollins,1
+Africa,Penguin Books,3
+Africa,Pocket,5
+Africa,Scholastic,6
+Africa,Silhouette,7
+Africa,Simon & Schuster,2
+Asia,Ballantine Books,257
+Asia,Bantam Books,233
+Asia,Berkley Publishing Group,215
+Asia,Harlequin,162
+Asia,Harpercollins,81
+Asia,Penguin Books,203
+Asia,Pocket,262
+Asia,Scholastic,86
+Asia,Silhouette,96
+Asia,Simon & Schuster,59
+Europe,Ballantine Books,1584
+Europe,Bantam Books,958
+Europe,Berkley Publishing Group,1054
+Europe,Harlequin,1033
+Europe,Harpercollins,587
+Europe,Penguin Books,2318
+Europe,Pocket,1771
+Europe,Scholastic,275
+Europe,Silhouette,683
+Europe,Simon & Schuster,338
+North America,Ballantine Books,30956
+North America,Bantam Books,21036
+North America,Berkley Publishing Group,25880
+North America,Harlequin,22718
+North America,Harpercollins,9892
+North America,Penguin Books,13167
+North America,Pocket,28175
+North America,Scholastic,12359
+North America,Silhouette,12595
+North America,Simon & Schuster,9272
+Oceania,Ballantine Books,492
+Oceania,Bantam Books,385
+Oceania,Berkley Publishing Group,291
+Oceania,Harlequin,168
+Oceania,Harpercollins,261
+Oceania,Penguin Books,698
+Oceania,Pocket,427
+Oceania,Scholastic,325
+Oceania,Silhouette,169
+Oceania,Simon & Schuster,151
+South America,Ballantine Books,38
+South America,Bantam Books,40
+South America,Berkley Publishing Group,37
+South America,Harlequin,2
+South America,Harpercollins,6
+South America,Penguin Books,26
+South America,Pocket,45
+South America,Scholastic,6
+South America,Silhouette,3
+South America,Simon & Schuster,8
