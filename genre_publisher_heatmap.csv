@@ -1,0 +1,268 @@
+genre,publisher,count
+Biography & Autobiography,Cambridge University Press,20
+Biography & Autobiography,Courier Corporation,12
+Biography & Autobiography,Hachette UK,44
+Biography & Autobiography,Harper Collins,84
+Biography & Autobiography,HarperCollins,36
+Biography & Autobiography,Houghton Mifflin Harcourt,33
+Biography & Autobiography,John Wiley & Sons,6
+Biography & Autobiography,Macmillan,122
+Biography & Autobiography,Open Road Media,88
+Biography & Autobiography,Oxford University Press,18
+Biography & Autobiography,"Oxford University Press, USA",22
+Biography & Autobiography,Penguin,120
+Biography & Autobiography,Random House,96
+Biography & Autobiography,Routledge,14
+Biography & Autobiography,Simon and Schuster,321
+Biography & Autobiography,Univ of California Press,22
+Biography & Autobiography,Unknown,622
+Biography & Autobiography,Vintage,113
+Biography & Autobiography,iUniverse,99
+Business & Economics,Cambridge University Press,90
+Business & Economics,Courier Corporation,3
+Business & Economics,Hachette UK,17
+Business & Economics,Harper Collins,55
+Business & Economics,HarperCollins,13
+Business & Economics,Houghton Mifflin Harcourt,20
+Business & Economics,John Wiley & Sons,572
+Business & Economics,Macmillan,19
+Business & Economics,Open Road Media,2
+Business & Economics,Oxford University Press,32
+Business & Economics,"Oxford University Press, USA",25
+Business & Economics,Penguin,100
+Business & Economics,Random House,14
+Business & Economics,Routledge,221
+Business & Economics,Simon and Schuster,121
+Business & Economics,Springer Science & Business Media,40
+Business & Economics,Univ of California Press,16
+Business & Economics,Unknown,380
+Business & Economics,Vintage,7
+Business & Economics,iUniverse,38
+Computers,Cambridge University Press,42
+Computers,Harper Collins,3
+Computers,John Wiley & Sons,351
+Computers,Macmillan,1
+Computers,Oxford University Press,5
+Computers,"Oxford University Press, USA",7
+Computers,Penguin,12
+Computers,Routledge,3
+Computers,Simon and Schuster,6
+Computers,Springer Science & Business Media,154
+Computers,Univ of California Press,1
+Computers,Unknown,296
+Computers,iUniverse,10
+Cooking,Courier Corporation,9
+Cooking,Hachette UK,8
+Cooking,Harper Collins,60
+Cooking,HarperCollins,11
+Cooking,Houghton Mifflin Harcourt,42
+Cooking,John Wiley & Sons,19
+Cooking,Macmillan,22
+Cooking,Open Road Media,6
+Cooking,Oxford University Press,2
+Cooking,"Oxford University Press, USA",1
+Cooking,Penguin,56
+Cooking,Random House,15
+Cooking,Simon and Schuster,71
+Cooking,Univ of California Press,10
+Cooking,Unknown,371
+Cooking,Vintage,11
+Cooking,iUniverse,2
+Education,Cambridge University Press,21
+Education,Courier Corporation,2
+Education,Harper Collins,6
+Education,HarperCollins,1
+Education,Houghton Mifflin Harcourt,5
+Education,John Wiley & Sons,51
+Education,Macmillan,5
+Education,Oxford University Press,11
+Education,"Oxford University Press, USA",3
+Education,Penguin,6
+Education,Routledge,144
+Education,Simon and Schuster,50
+Education,Springer Science & Business Media,7
+Education,Univ of California Press,2
+Education,Unknown,360
+Education,Vintage,3
+Education,iUniverse,7
+Family & Relationships,Cambridge University Press,1
+Family & Relationships,Hachette UK,7
+Family & Relationships,Harper Collins,41
+Family & Relationships,HarperCollins,7
+Family & Relationships,Houghton Mifflin Harcourt,1
+Family & Relationships,John Wiley & Sons,27
+Family & Relationships,Macmillan,26
+Family & Relationships,Open Road Media,2
+Family & Relationships,Oxford University Press,1
+Family & Relationships,"Oxford University Press, USA",4
+Family & Relationships,Penguin,45
+Family & Relationships,Random House,5
+Family & Relationships,Routledge,23
+Family & Relationships,Simon and Schuster,100
+Family & Relationships,Univ of California Press,1
+Family & Relationships,Unknown,252
+Family & Relationships,Vintage,1
+Family & Relationships,iUniverse,44
+Fiction,Cambridge University Press,5
+Fiction,Courier Corporation,86
+Fiction,Hachette UK,329
+Fiction,Harper Collins,611
+Fiction,HarperCollins,151
+Fiction,Houghton Mifflin Harcourt,134
+Fiction,Macmillan,497
+Fiction,Open Road Media,624
+Fiction,Oxford University Press,54
+Fiction,"Oxford University Press, USA",37
+Fiction,Penguin,1114
+Fiction,Random House,361
+Fiction,Routledge,4
+Fiction,Simon and Schuster,901
+Fiction,Univ of California Press,11
+Fiction,Unknown,1472
+Fiction,Vintage,388
+Fiction,iUniverse,373
+History,Cambridge University Press,280
+History,Courier Corporation,53
+History,Hachette UK,27
+History,Harper Collins,79
+History,HarperCollins,13
+History,Houghton Mifflin Harcourt,31
+History,John Wiley & Sons,28
+History,Macmillan,54
+History,Open Road Media,38
+History,Oxford University Press,110
+History,"Oxford University Press, USA",87
+History,Penguin,91
+History,Random House,46
+History,Routledge,341
+History,Simon and Schuster,184
+History,Springer Science & Business Media,2
+History,Univ of California Press,191
+History,Unknown,802
+History,Vintage,106
+History,iUniverse,22
+Juvenile Fiction,Cambridge University Press,1
+Juvenile Fiction,Courier Corporation,53
+Juvenile Fiction,Hachette UK,28
+Juvenile Fiction,Harper Collins,291
+Juvenile Fiction,HarperCollins,124
+Juvenile Fiction,Houghton Mifflin Harcourt,263
+Juvenile Fiction,Macmillan,97
+Juvenile Fiction,Open Road Media,64
+Juvenile Fiction,Oxford University Press,3
+Juvenile Fiction,"Oxford University Press, USA",4
+Juvenile Fiction,Penguin,259
+Juvenile Fiction,Random House,30
+Juvenile Fiction,Simon and Schuster,453
+Juvenile Fiction,Unknown,429
+Juvenile Fiction,Vintage,2
+Juvenile Fiction,iUniverse,25
+Juvenile Nonfiction,Cambridge University Press,19
+Juvenile Nonfiction,Courier Corporation,104
+Juvenile Nonfiction,Hachette UK,1
+Juvenile Nonfiction,Harper Collins,53
+Juvenile Nonfiction,HarperCollins,27
+Juvenile Nonfiction,Houghton Mifflin Harcourt,79
+Juvenile Nonfiction,John Wiley & Sons,8
+Juvenile Nonfiction,Macmillan,38
+Juvenile Nonfiction,Open Road Media,6
+Juvenile Nonfiction,Oxford University Press,12
+Juvenile Nonfiction,"Oxford University Press, USA",21
+Juvenile Nonfiction,Penguin,89
+Juvenile Nonfiction,Random House,2
+Juvenile Nonfiction,Simon and Schuster,74
+Juvenile Nonfiction,Unknown,285
+Juvenile Nonfiction,iUniverse,6
+Religion,Cambridge University Press,55
+Religion,Courier Corporation,5
+Religion,Hachette UK,9
+Religion,Harper Collins,142
+Religion,HarperCollins,17
+Religion,Houghton Mifflin Harcourt,8
+Religion,John Wiley & Sons,39
+Religion,Macmillan,6
+Religion,Open Road Media,2
+Religion,Oxford University Press,59
+Religion,"Oxford University Press, USA",30
+Religion,Penguin,47
+Religion,Random House,10
+Religion,Routledge,68
+Religion,Simon and Schuster,113
+Religion,Univ of California Press,24
+Religion,Unknown,869
+Religion,Vintage,17
+Religion,iUniverse,40
+Science,Cambridge University Press,127
+Science,Courier Corporation,92
+Science,Hachette UK,11
+Science,Harper Collins,14
+Science,HarperCollins,5
+Science,Houghton Mifflin Harcourt,13
+Science,John Wiley & Sons,119
+Science,Macmillan,12
+Science,Open Road Media,4
+Science,Oxford University Press,33
+Science,"Oxford University Press, USA",24
+Science,Penguin,27
+Science,Random House,9
+Science,Routledge,37
+Science,Simon and Schuster,29
+Science,Springer Science & Business Media,241
+Science,Univ of California Press,14
+Science,Unknown,186
+Science,Vintage,8
+Science,iUniverse,5
+Social Science,Cambridge University Press,46
+Social Science,Courier Corporation,17
+Social Science,Hachette UK,11
+Social Science,Harper Collins,45
+Social Science,HarperCollins,8
+Social Science,Houghton Mifflin Harcourt,10
+Social Science,John Wiley & Sons,34
+Social Science,Macmillan,15
+Social Science,Open Road Media,10
+Social Science,Oxford University Press,37
+Social Science,"Oxford University Press, USA",28
+Social Science,Penguin,37
+Social Science,Random House,18
+Social Science,Routledge,331
+Social Science,Simon and Schuster,50
+Social Science,Springer Science & Business Media,10
+Social Science,Univ of California Press,47
+Social Science,Unknown,285
+Social Science,Vintage,53
+Social Science,iUniverse,10
+Sports & Recreation,Courier Corporation,5
+Sports & Recreation,Hachette UK,8
+Sports & Recreation,Harper Collins,22
+Sports & Recreation,HarperCollins,5
+Sports & Recreation,Houghton Mifflin Harcourt,6
+Sports & Recreation,John Wiley & Sons,12
+Sports & Recreation,Macmillan,14
+Sports & Recreation,Open Road Media,7
+Sports & Recreation,Oxford University Press,1
+Sports & Recreation,"Oxford University Press, USA",2
+Sports & Recreation,Penguin,19
+Sports & Recreation,Random House,8
+Sports & Recreation,Routledge,8
+Sports & Recreation,Simon and Schuster,76
+Sports & Recreation,Unknown,214
+Sports & Recreation,Vintage,2
+Sports & Recreation,iUniverse,14
+Unknown,Cambridge University Press,2
+Unknown,Harper Collins,1
+Unknown,HarperCollins,25
+Unknown,Houghton Mifflin Harcourt,3
+Unknown,John Wiley & Sons,20
+Unknown,Macmillan,4
+Unknown,Oxford University Press,16
+Unknown,"Oxford University Press, USA",16
+Unknown,Penguin,3
+Unknown,Random House,2
+Unknown,Routledge,82
+Unknown,Simon and Schuster,4
+Unknown,Springer Science & Business Media,1
+Unknown,Univ of California Press,9
+Unknown,Unknown,36784
+Unknown,Vintage,16
+Unknown,iUniverse,1
