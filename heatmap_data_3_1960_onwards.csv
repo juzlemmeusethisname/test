@@ -1,0 +1,106 @@
+Decade,Genre,Count,Decade_Total,Percentage,Growth
+1960.0,Biography & Autobiography,31,428,7.24,63.2
+1970.0,Biography & Autobiography,56,943,5.94,80.6
+1980.0,Biography & Autobiography,202,3231,6.25,260.7
+1990.0,Biography & Autobiography,1001,14189,7.05,395.5
+2000.0,Biography & Autobiography,2141,27670,7.74,113.9
+2010.0,Biography & Autobiography,1361,19265,7.06,-36.4
+2020.0,Biography & Autobiography,242,3060,7.91,-82.2
+1960.0,Business & Economics,18,428,4.21,260.0
+1970.0,Business & Economics,31,943,3.29,72.2
+1980.0,Business & Economics,131,3231,4.05,322.6
+1990.0,Business & Economics,982,14189,6.92,649.6
+2000.0,Business & Economics,2129,27670,7.69,116.8
+2010.0,Business & Economics,1063,19265,5.52,-50.1
+2020.0,Business & Economics,144,3060,4.71,-86.5
+1960.0,Computers,1,428,0.23,
+1970.0,Computers,8,943,0.85,700.0
+1980.0,Computers,44,3231,1.36,450.0
+1990.0,Computers,863,14189,6.08,1861.4
+2000.0,Computers,2092,27670,7.56,142.4
+2010.0,Computers,438,19265,2.27,-79.1
+2020.0,Computers,41,3060,1.34,-90.6
+1960.0,Cooking,30,428,7.01,172.7
+1970.0,Cooking,74,943,7.85,146.7
+1980.0,Cooking,149,3231,4.61,101.4
+1990.0,Cooking,507,14189,3.57,240.3
+2000.0,Cooking,735,27670,2.66,45.0
+2010.0,Cooking,457,19265,2.37,-37.8
+2020.0,Cooking,55,3060,1.8,-88.0
+1960.0,Education,16,428,3.74,220.0
+1970.0,Education,28,943,2.97,75.0
+1980.0,Education,72,3231,2.23,157.1
+1990.0,Education,488,14189,3.44,577.8
+2000.0,Education,918,27670,3.32,88.1
+2010.0,Education,462,19265,2.4,-49.7
+2020.0,Education,61,3060,1.99,-86.8
+1960.0,Family & Relationships,2,428,0.47,
+1970.0,Family & Relationships,5,943,0.53,150.0
+1980.0,Family & Relationships,53,3231,1.64,960.0
+1990.0,Family & Relationships,380,14189,2.68,617.0
+2000.0,Family & Relationships,931,27670,3.36,145.0
+2010.0,Family & Relationships,299,19265,1.55,-67.9
+2020.0,Family & Relationships,45,3060,1.47,-84.9
+1960.0,Fiction,76,428,17.76,130.3
+1970.0,Fiction,164,943,17.39,115.8
+1980.0,Fiction,813,3231,25.16,395.7
+1990.0,Fiction,2718,14189,19.16,234.3
+2000.0,Fiction,6748,27670,24.39,148.3
+2010.0,Fiction,6776,19265,35.17,0.4
+2020.0,Fiction,1280,3060,41.83,-81.1
+1960.0,History,91,428,21.26,139.5
+1970.0,History,168,943,17.82,84.6
+1980.0,History,435,3231,13.46,158.9
+1990.0,History,1612,14189,11.36,270.6
+2000.0,History,2814,27670,10.17,74.6
+2010.0,History,2011,19265,10.44,-28.5
+2020.0,History,267,3060,8.73,-86.7
+1960.0,Juvenile Fiction,45,428,10.51,150.0
+1970.0,Juvenile Fiction,54,943,5.73,20.0
+1980.0,Juvenile Fiction,164,3231,5.08,203.7
+1990.0,Juvenile Fiction,961,14189,6.77,486.0
+2000.0,Juvenile Fiction,2037,27670,7.36,112.0
+2010.0,Juvenile Fiction,1677,19265,8.7,-17.7
+2020.0,Juvenile Fiction,266,3060,8.69,-84.1
+1960.0,Juvenile Nonfiction,11,428,2.57,57.1
+1970.0,Juvenile Nonfiction,36,943,3.82,227.3
+1980.0,Juvenile Nonfiction,114,3231,3.53,216.7
+1990.0,Juvenile Nonfiction,716,14189,5.05,528.1
+2000.0,Juvenile Nonfiction,1180,27670,4.26,64.8
+2010.0,Juvenile Nonfiction,563,19265,2.92,-52.3
+2020.0,Juvenile Nonfiction,109,3060,3.56,-80.6
+1960.0,Literary Criticism,13,428,3.04,116.7
+1970.0,Literary Criticism,32,943,3.39,146.2
+1980.0,Literary Criticism,149,3231,4.61,365.6
+1990.0,Literary Criticism,483,14189,3.4,224.2
+2000.0,Literary Criticism,553,27670,2.0,14.5
+2010.0,Literary Criticism,408,19265,2.12,-26.2
+2020.0,Literary Criticism,65,3060,2.12,-84.1
+1960.0,Religion,51,428,11.92,41.7
+1970.0,Religion,152,943,16.12,198.0
+1980.0,Religion,464,3231,14.36,205.3
+1990.0,Religion,1722,14189,12.14,271.1
+2000.0,Religion,2994,27670,10.82,73.9
+2010.0,Religion,1810,19265,9.4,-39.5
+2020.0,Religion,269,3060,8.79,-85.1
+1960.0,Science,21,428,4.91,40.0
+1970.0,Science,49,943,5.2,133.3
+1980.0,Science,140,3231,4.33,185.7
+1990.0,Science,447,14189,3.15,219.3
+2000.0,Science,648,27670,2.34,45.0
+2010.0,Science,689,19265,3.58,6.3
+2020.0,Science,75,3060,2.45,-89.1
+1960.0,Social Science,17,428,3.97,142.9
+1970.0,Social Science,68,943,7.21,300.0
+1980.0,Social Science,206,3231,6.38,202.9
+1990.0,Social Science,864,14189,6.09,319.4
+2000.0,Social Science,965,27670,3.49,11.7
+2010.0,Social Science,864,19265,4.48,-10.5
+2020.0,Social Science,99,3060,3.24,-88.5
+1960.0,Sports & Recreation,5,428,1.17,150.0
+1970.0,Sports & Recreation,18,943,1.91,260.0
+1980.0,Sports & Recreation,95,3231,2.94,427.8
+1990.0,Sports & Recreation,445,14189,3.14,368.4
+2000.0,Sports & Recreation,785,27670,2.84,76.4
+2010.0,Sports & Recreation,387,19265,2.01,-50.7
+2020.0,Sports & Recreation,42,3060,1.37,-89.1
